@@ -1,4 +1,4 @@
-
+#%%
 from pynput import keyboard
 from pynput.keyboard import Key
 import numpy as np
@@ -132,3 +132,5 @@ print_15_puzzle(matrix_board)
 with keyboard.Listener(on_release=on_key_release) as listener:
     listener.join()
 
+
+# %%
